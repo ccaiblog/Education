@@ -1,0 +1,30 @@
+{
+  "math": [
+    {"question":"Solve: 3x + 5 = 20","options":["x=5","x=15","x=8","x=10"],"answer":0,"explanation":"Subtract 5 then divide by 3: (20-5)/3 = 5."},
+    {"question":"What is 15% of 80?","options":["10","12","14","16"],"answer":1,"explanation":"10% is 8 and 5% is 4; total 12."},
+    {"question":"Area of a rectangle with length 9 and width 4?","options":["13","26","36","45"],"answer":2,"explanation":"Area = length × width = 9 × 4."},
+    {"question":"Which is equivalent to 0.75?","options":["3/8","1/2","3/4","4/3"],"answer":2,"explanation":"0.75 is seventy-five hundredths, or 3/4."},
+    {"question":"If a triangle has angles 50° and 60°, the third angle is:","options":["60°","70°","80°","90°"],"answer":1,"explanation":"Angles in a triangle total 180°: 180 - 110 = 70."},
+    {"question":"The mean of 6, 8, 10, and 12 is:","options":["8","9","10","11"],"answer":1,"explanation":"(6+8+10+12)/4 = 36/4 = 9."},
+    {"question":"What is 2^5?","options":["10","16","32","64"],"answer":2,"explanation":"2 multiplied by itself 5 times = 32."},
+    {"question":"A ratio of 12:16 simplifies to:","options":["3:4","4:3","6:8","8:6"],"answer":0,"explanation":"Divide both terms by 4 -> 3:4."},
+    {"question":"What is the slope between points (1,2) and (5,10)?","options":["1","2","3","4"],"answer":1,"explanation":"(10-2)/(5-1) = 8/4 = 2."},
+    {"question":"The value of 7(3 + 2) is:","options":["17","21","35","49"],"answer":2,"explanation":"Parentheses first: 7 × 5 = 35."},
+    {"question":"If y = 4x and x=3, y equals:","options":["7","12","16","24"],"answer":1,"explanation":"Substitute x with 3: y = 12."},
+    {"question":"Which number is irrational?","options":["0.25","√2","3/5","-4"],"answer":1,"explanation":"√2 cannot be written as a fraction exactly."}
+  ],
+  "science": [
+    {"question":"Which organelle is called the powerhouse of the cell?","options":["Nucleus","Ribosome","Mitochondria","Vacuole"],"answer":2,"explanation":"Mitochondria release usable energy from food."},
+    {"question":"What force pulls objects toward Earth?","options":["Friction","Gravity","Magnetism","Inertia"],"answer":1,"explanation":"Gravity attracts masses toward each other."},
+    {"question":"Water changes from liquid to gas during:","options":["Condensation","Evaporation","Freezing","Melting"],"answer":1,"explanation":"Evaporation is liquid to gas."},
+    {"question":"The process plants use to make food is:","options":["Respiration","Transpiration","Photosynthesis","Fermentation"],"answer":2,"explanation":"Photosynthesis uses light, water, and carbon dioxide."},
+    {"question":"Which state of matter has a definite shape and volume?","options":["Solid","Liquid","Gas","Plasma"],"answer":0,"explanation":"Solids keep both shape and volume."},
+    {"question":"What is the chemical symbol for sodium?","options":["So","Na","S","Sn"],"answer":1,"explanation":"Sodium is represented by Na."},
+    {"question":"Which layer protects Earth from harmful UV radiation?","options":["Troposphere","Mesosphere","Ozone layer","Ionosphere"],"answer":2,"explanation":"Ozone absorbs much of the Sun's UV."},
+    {"question":"Speed equals:","options":["distance × time","distance/time","mass × acceleration","force/time"],"answer":1,"explanation":"Speed is distance divided by time."},
+    {"question":"An ecosystem includes:","options":["Only animals","Only plants","Living and nonliving things","Only nonliving things"],"answer":2,"explanation":"Ecosystems include organisms and their environment."},
+    {"question":"Which blood cells help fight infection?","options":["Red blood cells","White blood cells","Platelets","Plasma"],"answer":1,"explanation":"White blood cells are part of the immune system."},
+    {"question":"The boiling point of water at sea level is:","options":["90°C","100°C","110°C","212°C only"],"answer":1,"explanation":"At standard pressure, water boils at 100°C (212°F)."},
+    {"question":"Energy stored in food is primarily:","options":["Thermal","Chemical","Nuclear","Sound"],"answer":1,"explanation":"Food stores chemical energy."}
+  ]
+}
