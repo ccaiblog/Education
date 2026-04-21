@@ -1,0 +1,90 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 10%, #14213d, #030712 60%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+#game {
+  width: min(1280px, 100vw);
+  aspect-ratio: 16 / 9;
+  border: 1px solid #22304a;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55), inset 0 0 0 1px rgba(64, 224, 255, 0.15);
+}
+
+#hud-root {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+.quiz-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(1, 6, 18, 0.82);
+  display: grid;
+  place-items: center;
+  pointer-events: auto;
+  z-index: 20;
+}
+
+.quiz-panel {
+  width: min(960px, 94vw);
+  max-height: 86vh;
+  overflow: auto;
+  padding: 24px 30px;
+  border-radius: 14px;
+  border: 1px solid #355070;
+  background: linear-gradient(180deg, rgba(12, 25, 46, 0.96), rgba(8, 18, 34, 0.96));
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+.quiz-panel h2 { margin: 0; font-size: 32px; }
+.quiz-panel .sub { color: #9fb3cc; margin: 8px 0 16px; }
+.quiz-item { padding: 12px; border: 1px solid #253753; border-radius: 10px; margin: 10px 0; }
+.quiz-item.correct { border-color: #2cc295; background: rgba(44, 194, 149, 0.12); }
+.quiz-item.wrong { border-color: #ff6b8a; background: rgba(255, 107, 138, 0.12); }
+.quiz-item h3 { margin: 0 0 8px; font-size: 18px; }
+.options { display: grid; gap: 6px; }
+.options label { display: flex; gap: 10px; align-items: center; color: #dbeafe; }
+.explanation { color: #b8dbff; font-size: 14px; margin-top: 8px; }
+.hidden { display: none; }
+
+.cta {
+  margin-top: 14px;
+  border: 1px solid #40e0ff;
+  color: white;
+  background: linear-gradient(120deg, rgba(64, 224, 255, 0.4), rgba(58, 12, 163, 0.45));
+  padding: 12px 18px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.leaderboard-chip {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 260px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #355070;
+  background: rgba(8, 18, 34, 0.92);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.4);
+}
+
+.leaderboard-chip h3 { margin: 0 0 10px; color: #d6f2ff; }
+.leaderboard-chip ol { margin: 0; padding: 0 0 0 18px; }
+.leaderboard-chip li { display: flex; justify-content: space-between; margin: 4px 0; color: #b7cee6; }
+.leaderboard-chip li.you { color: #f8f272; font-weight: 700; }
